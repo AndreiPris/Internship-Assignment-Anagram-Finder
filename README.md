@@ -14,8 +14,8 @@
 2. Убедитесь, что Python установлен:
    python --version
 3. Если Python не установлен, воспользуйтесь командой:
-    Windows: Скачайте с python.org
-    macOS: bashbrew install python
+Windows: Скачайте с python.org
+macOS: bashbrew install python
 
 ## Использование
 

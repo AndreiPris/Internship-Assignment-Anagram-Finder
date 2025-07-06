@@ -30,7 +30,7 @@ python --version
 
 ### Запуск программы
 
-python anagram_finder.py
+python main.py
 Программа автоматически обработает файл `sample.txt`, который включен в репозиторий.
 
 ### Использование собственного файла
@@ -59,7 +59,7 @@ bee
 ## Структура проекта
 ```
 anagram-finder/
-├── anagram_finder.py # Основная программа
+├── main.py # Основная программа
 ├── sample.txt # Пример входного файла
 ├── README.md # Документация
 └── design_decisions.md # Документ с решениями

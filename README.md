@@ -42,6 +42,8 @@ filename = "your_file.txt"
 ## Пример работы
 
 **Входной файл (sample.txt):**
+
+```
 act
 cat
 tree
@@ -49,6 +51,7 @@ race
 care
 acre
 bee
+```
 
 **Вывод программы:**
 act cat
@@ -57,6 +60,7 @@ tree
 bee
 
 ## Структура проекта
+
 ```
 anagram-finder/
 ├── main.py # Основная программа
@@ -64,6 +68,7 @@ anagram-finder/
 ├── README.md # Документация
 └── design_decisions.md # Документ с решениями
 ```
+
 ## Алгоритм
 
 1. **Чтение файла**: построчно с очисткой от пробелов

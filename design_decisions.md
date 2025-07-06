@@ -8,7 +8,7 @@
 
 ### Рассмотренные варианты:
 
-1. **Сортировка символов** ✅ (выбран)
+1. **Сортировка символов** (выбран)
 2. Подсчет частоты символов
 3. Произведение простых чисел
 
@@ -33,7 +33,7 @@
 ```python
 def read_words_from_file(filename)  # Чтение и очистка данных
 def group_anagrams(words)           # Основной алгоритм группировки  
-if __name__ == "__main__":          # Точка входа и оркестрация
+if __name__ == "__main__":          # Точка входа
 ```
 
 ### Принципы дизайна:
@@ -65,8 +65,9 @@ anagram_groups = {
 ### Очистка входных данных:
 
 ```python
-word = line.strip().lower()
-if word and word.isalpha():
+if not word:
+    continue        
+if word.isalpha():
     words.append(word)
 ```
 
